@@ -1,0 +1,53 @@
+body{
+    background-image: url("ciel.jpg");
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+}
+#infosUsers{
+    text-align: center;
+}
+
+#conteneur{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#conteneurInfos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+#conteneurInfos div{
+    text-align: center;
+
+}
+
+.tuile{
+    
+    width: 40vw;   
+    margin: 20px;
+    border:1px solid black;
+    border-radius: 20px;
+    padding: 0;
+}
+
+img{
+    width:15vw;
+    height: 15vh;
+}
+
+h2{
+    text-align: center;
+    background-color: grey;
+    color: white;
+    margin: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
